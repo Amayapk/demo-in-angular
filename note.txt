@@ -1,0 +1,67 @@
+                angular commands      
+             ..............................
+                1
+                2
+                3
+                4.to create services : ng g s servicename
+                
+                
+                
+                
+                
+                angular basics:
+             .........................
+
+  1. modules : to import libraries- root module -appmodule
+  2. component : to get {html, css, ts}  - root component -app component
+  3. data binding : to share data between  .html  and  .ts file
+      3.1  one way binding : data sharing only in one direction
+         3.1.1 : component to view
+          * string interpolation : syntax: {{variable-name}}
+          * property binding : syntax : [attribute-name]="variable-name"
+        3.1.2 view to component
+          * event binding -syntax :
+          * event binding
+          *template reference variable -syntax : 
+
+      3.2 two way binding: data sharing between ts and html in both direction
+         
+         3.2.1 : ngModel -import FormsModule -syntax : [{ngModel}]="variable-name"
+
+4.angular routing : tho set path for component -{path :,component:}
+
+5.dependancy injection : in constructor - syntax - access specifier objname: instance-name
+
+6.ngSubmit : 
+
+7.angular services :to hold redentant  code
+
+8.angular FormsModule
+
+ 8.1 template driven angular FormsModule - first design html page
+
+ 8.2 model driven angular form - first create model for that html in ts file
+  
+    8.2.1 reactive forms -add validation to it {form group,form array,form control name}
+       to import ReactiveFormModule in appmodule
+
+9. angular directives -used to manipulate DOM(document object model)
+   
+    9.1 component directives :
+
+    9.2 structural directives : to add or remove tag structure DOM
+       
+       9.2.1 ngIf -syntax : *ngIf="condition"
+
+       9.2.2 ngFor
+
+
+10. local storage
+    
+    10.1 setitem : to store data
+
+    10.2 getitem : to get data
+
+    10.3 removeitem :
+
+11. angular pipes : toto convert data from one form to another
